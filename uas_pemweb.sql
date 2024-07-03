@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jul 03, 2024 at 11:50 AM
+-- Generation Time: Jul 03, 2024 at 12:54 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.7
 
@@ -42,7 +42,10 @@ CREATE TABLE `euro2024` (
 --
 
 INSERT INTO `euro2024` (`kdeuro`, `groupeuro`, `tim`, `menang`, `seri`, `kalah`, `poin`) VALUES
-(6, 'B', 'Italia', 1, 1, 1, 1);
+(7, 'B', 'Spanyol', 3, 0, 0, 9),
+(8, 'B', 'Italia', 1, 1, 1, 4),
+(9, 'B', 'Kroasia', 0, 2, 1, 2),
+(10, 'B', 'Albania', 0, 1, 2, 1);
 
 -- --------------------------------------------------------
 
@@ -87,7 +90,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `euro2024`
 --
 ALTER TABLE `euro2024`
-  MODIFY `kdeuro` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `kdeuro` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users`
